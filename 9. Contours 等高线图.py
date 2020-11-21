@@ -24,6 +24,7 @@ X, Y = np.meshgrid(x, y)
 # X, Y and value for (X, Y) point
 plt.contourf(X, Y, f(X, Y), 8, alpha=0.75, cmap=plt.cm.hot)
 
+
 # use plt.contour to add contour lines
 C = plt.contour(X, Y, f(X, Y), 8, colors='black', linewidth=.5)
 # adding label
